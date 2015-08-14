@@ -29,6 +29,10 @@ group :development, :test do
   gem 'spring',      '1.1.3'
 end
 
+group :test do
+  gem 'minitest-reporters', '1.0.5'
+end
+
 group :production do
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'

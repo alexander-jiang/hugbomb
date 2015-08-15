@@ -1,2 +1,21 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+/* global styles */
+body {
+	padding-top: 60px; /* the navbar-fixed-top needs padding-top; navbar is 50px high */
+}
+
+/* typography */
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2.15em;
+}
+
+p {
+	font-size: 1.1em;
+	line-height: 1.7em;
+}

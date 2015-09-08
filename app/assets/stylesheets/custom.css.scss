@@ -1,9 +1,28 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+$gray-medium-light: #eaeaea;
+
 /* global styles */
 body {
 	padding-top: 60px; /* the navbar-fixed-top needs padding-top; navbar is 50px high */
+}
+
+/* header */
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+	color: $gray-medium-light;
+  padding-top: 9px;
+  font-weight: bold;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.navbar-inverse .navbar-nav li a {
+	color: $gray-medium-light;
 }
 
 /* typography */
